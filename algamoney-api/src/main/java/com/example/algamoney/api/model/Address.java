@@ -21,7 +21,7 @@ public class Address {
 	
 	@Column
 	@Size(max = 30)
-	private String neighborhood;
+	private String neightborhood;
 	
 	@Column
 	@Size(max = 30)
@@ -60,11 +60,11 @@ public class Address {
 	}
 
 	public String getNeighborhood() {
-		return neighborhood;
+		return neightborhood;
 	}
 
 	public void setNeighborhood(String neighborhood) {
-		this.neighborhood = neighborhood;
+		this.neightborhood = neighborhood;
 	}
 
 	public String getCEP() {
